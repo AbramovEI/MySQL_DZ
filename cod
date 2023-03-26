@@ -1,0 +1,9 @@
+SELECT product_name, manufacturer, price 
+FROM myfirstdt.new_table
+WHERE product_count > 2;
+
+
+USE myfirstdt;
+SELECT product_name 
+FROM new_table 
+WHERE manufacturer = "Samsung";
